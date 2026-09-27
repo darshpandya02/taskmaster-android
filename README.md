@@ -81,7 +81,10 @@ handled asynchronously by the system, so the test now polls for the posted notif
 After that fix the 25 instrumented tests passed on three runs in a row.
 
 GitHub Actions (`.github/workflows/ci.yml`) runs the unit tests and builds both APKs, and
-runs the instrumented suite on an API 34 x86_64 emulator.
+runs the instrumented suite on an API 34 x86_64 emulator. On the first push both jobs passed,
+with all 25 instrumented tests; the emulator job took 7 min 37 s.
+
+`python3 scripts/test-summary.py unit|connected` prints per-class counts from the JUnit XML.
 
 ## Release signing
 
