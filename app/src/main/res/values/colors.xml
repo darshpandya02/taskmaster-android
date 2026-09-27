@@ -1,0 +1,10 @@
+<resources>
+    <color name="brand">#3D5AFE</color>
+    <color name="brand_dark">#0031CA</color>
+    <color name="priority_high">#E53935</color>
+    <color name="priority_medium">#FB8C00</color>
+    <color name="priority_low">#43A047</color>
+    <color name="overdue">#D32F2F</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="launcher_background">#3D5AFE</color>
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TaskMaster</string>
+    <string name="title_new_task">New task</string>
+    <string name="title_edit_task">Edit task</string>
+    <string name="new_task">New task</string>
+    <string name="search_hint">Search tasks</string>
+    <string name="action_search">Search</string>
+    <string name="action_export">Export backup…</string>
+    <string name="action_import">Import backup…</string>
+    <string name="action_drive_backup">Google Drive backup</string>
+    <string name="suffix_not_configured">" (not configured)"</string>
+    <string name="drive_available">Google Drive backup is available.</string>
+    <string name="filter_all">All</string>
+    <string name="filter_active">Active</string>
+    <string name="filter_done">Done</string>
+    <string name="empty_list">No tasks yet. Tap + to add one.</string>
+    <string name="empty_search">No tasks match your search.</string>
+    <string name="deleted_message">Deleted \"%1$s\"</string>
+    <string name="undo">Undo</string>
+    <string name="overdue_prefix">Overdue · %1$s</string>
+    <string name="priority_description">%1$s priority</string>
+    <string name="mark_done_description">Mark \"%1$s\" done</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_notes">Notes</string>
+    <string name="label_due">Due</string>
+    <string name="label_priority">Priority</string>
+    <string name="no_due_date">No due date</string>
+    <string name="clear_due">Clear due date</string>
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="delete_title">Delete this task?</string>
+    <string name="delete_message">The task and its reminder are removed.</string>
+    <string name="import_title">Import a backup?</string>
+    <string name="import_message">Importing replaces all current tasks with the tasks in the backup file.</string>
+    <string name="import_confirm">Choose file</string>
+    <string name="channel_reminders">Task reminders</string>
+    <string name="channel_reminders_description">A notification when a task is due</string>
+    <string name="reminder_due_now">Due now</string>
+    <string name="action_mark_done">Mark done</string>
+    <plurals name="active_count">
+        <item quantity="one">%d open task</item>
+        <item quantity="other">%d open tasks</item>
+    </plurals>
+</resources>
